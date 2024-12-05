@@ -4,12 +4,9 @@ module.exports = {
     './src/**/*.js',    
     './backend/**/*.js', 
   ],
-  //coverageThreshold: {
-  //  './src/*.js': {
-  //    lines: 0,
-  //  },
-  //  './backend/*.js': { 
-  //    lines: 0,
-  //  },
- // },
+  coverageThreshold: {
+    './src/*.js': {
+      lines: 0,
+    },
+  },
 };
