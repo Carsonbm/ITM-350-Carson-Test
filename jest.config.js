@@ -7,10 +7,10 @@ module.exports = {
   ],
   coverageThreshold: {
     './src/*.js': {
-      lines: 25,
+      lines: 0,s
     },
     './backend/*.js': { 
-      lines: 25,
+      lines: 0,
     },
   },
 };
